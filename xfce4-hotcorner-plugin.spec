@@ -9,9 +9,8 @@ License:	GPLv2+
 URL:		https://github.com/brianhsu/xfce4-hotcorner-plugin
 Source0:	https://github.com/brianhsu/%{name}/archive/%{gittag}.tar.gz#/%{name}-%{version}.tar.gz
 
-BuildRequires:	cmake libwnck3-devel xfce4-panel-devel
+BuildRequires:	cmake libwnck3-devel xfce4-panel-devel gcc
 Requires:	xfce4-panel
-Requires:	gcc
 
 %description
 This plugin aims to provide an easy to use xfce4 panel plugin that lets users set hot corner actions.
