@@ -7,7 +7,7 @@ Summary:	XFCE4 HotCorner Panel Plugin
 
 License:	GPLv2+
 URL:		https://github.com/brianhsu/xfce4-hotcorner-plugin
-Source0:	https://github.com/brianhsu/%{name}/archive/%{gittag}.tar.gz
+Source0:	https://github.com/brianhsu/%{name}/archive/%{gittag}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:	cmake libwnck3-devel xfce4-panel-devel
 Requires:	xfce4-panel,gcc
