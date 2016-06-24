@@ -10,10 +10,11 @@ URL:		https://github.com/brianhsu/xfce4-hotcorner-plugin
 Source0:	https://github.com/brianhsu/%{name}/archive/%{gittag}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:	cmake libwnck3-devel xfce4-panel-devel
-Requires:	xfce4-panel,gcc
+Requires:	xfce4-panel
+Requires:	gcc
 
 %description
-This plugin aims to provide an easy to use xfce4 panel plugin that let users set hot corner actions.
+This plugin aims to provide an easy to use xfce4 panel plugin that lets users set hot corner actions.
 
 %prep
 %setup -q
